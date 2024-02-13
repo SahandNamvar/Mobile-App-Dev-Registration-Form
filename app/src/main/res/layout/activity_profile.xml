@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewProfileName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/name"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textViewProfileEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/email"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewProfileName"
+        app:layout_constraintStart_toStartOf="@+id/textViewProfileName"
+        app:layout_constraintTop_toBottomOf="@+id/textViewProfileName" />
+
+    <TextView
+        android:id="@+id/textViewProfileRole"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/role"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewProfileEmail"
+        app:layout_constraintStart_toStartOf="@+id/textViewProfileEmail"
+        app:layout_constraintTop_toBottomOf="@+id/textViewProfileEmail" />
+
+    <TextView
+        android:id="@+id/textViewProfileEducation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/education"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewProfileRole"
+        app:layout_constraintStart_toStartOf="@+id/textViewProfileRole"
+        app:layout_constraintTop_toBottomOf="@+id/textViewProfileRole" />
+
+    <TextView
+        android:id="@+id/textViewProfileMaritalStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/marital_status"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewProfileEducation"
+        app:layout_constraintStart_toStartOf="@+id/textViewProfileEducation"
+        app:layout_constraintTop_toBottomOf="@+id/textViewProfileEducation" />
+
+    <TextView
+        android:id="@+id/textViewProfileLivingStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/living_status"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewProfileMaritalStatus"
+        app:layout_constraintStart_toStartOf="@+id/textViewProfileMaritalStatus"
+        app:layout_constraintTop_toBottomOf="@+id/textViewProfileMaritalStatus" />
+
+    <TextView
+        android:id="@+id/textViewProfileIncome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/income"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewProfileLivingStatus"
+        app:layout_constraintStart_toStartOf="@+id/textViewProfileLivingStatus"
+        app:layout_constraintTop_toBottomOf="@+id/textViewProfileLivingStatus" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
